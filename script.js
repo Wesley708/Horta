@@ -253,3 +253,7 @@ function fsql(){
     return display.innerHTML = "<h2>Sql</h2><p>Já tive contato com essa tecnologia em três matérias diferentes na faculdade, em Modelagem de Banco de Dados, Banco de Dados Relacional e na matéria de Desenvolvimento Web onde utilizei o Sql para fazer um sistema de gestão escolar. </p>";
 
 };
+
+const carrossel = document.getElementById('carrossel')
+
+

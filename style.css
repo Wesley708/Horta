@@ -24,30 +24,32 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: rgb(37, 39, 59);
+    background-color: var(--prymary-color);
 }nav{
     width: 100vw;
     height: 100px;
     display: flex;
-    position: fixed;
+    position: fixed ;
     align-items: center;
     justify-content: space-around;
     background-color: var(--prymary-color);
     color: white;
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.39) ;
+    z-index: 1;
 }#logo{
     height: 90px;
     border-radius: 2px;
-}#cv{
+}#mapa-menu{
     background-color: rgb(250, 250, 250);
-    color:rgb(37, 39, 59) ;
+    color:rgba(18, 48, 20, 0.937) ;
+    
 }ul{
     display: flex;
     align-items: center;
 }a{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.34em;
-    color: white;
+    color: rgb(244, 244, 244);
     text-decoration: none;
     padding: 5px 20px;
     border-radius: 20px;
@@ -100,8 +102,9 @@
     flex-direction: column;
     justify-content:center;
     align-items: start;
-    color:white;
-    width: 15%;
+    color:rgb(237, 237, 237);
+    font-weight: 500;
+    width: 20%;
     height: 100%;
 }
 #liRodape{
@@ -157,23 +160,8 @@ h2{
     transition: .3s;
 }.svg2:hover{
     height: 3.5em;
-}.tecnologias{
-    display: flex;
-    width: 400px;
-    margin:30px;
-    flex-direction: row;
-    justify-content: center;
-}#conhecimentos{
-    height: 200px;
-    box-shadow: 0px 0px 3px rgba(58, 74, 129, 0.921);
-    padding: 30px;
-    text-align: justify;
-    background-color: rgb(13, 56, 94);
-    color: white;
-}#conhecimentos h2{
-    color:white;
-    font-weight: 600;
-}p{
+}
+p{
     text-indent: 30px;
     text-align: justify;
 }.round{
@@ -194,4 +182,65 @@ h2{
 }.img-rigth{
     display: flex;
     flex-direction: row-reverse;
+}h4{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 4px;
+}#banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(mesa-legumes.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    background-size:auto;
+}#titulo{
+    font-weight: 400;
+    font-size: 70px;
+    color: #fafafa;
+}
+  
+#galeria{
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    justify-items: center;
+}
+#carrossel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    max-width: 80%;
+    justify-items: center;
+}
+#carrossel img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.img{
+    background-image: url(mesa-legumes.jpg);
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 100px;
+}
+.overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.654);
+    height: 100%;
+}
+.overlay  h2{
+    color: white;
+    font-weight: 200;
+    font-size: 70px;
 }
