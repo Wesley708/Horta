@@ -27,7 +27,7 @@
     background-color: var(--prymary-color);
 }nav{
     width: 100vw;
-    height: 100px;
+    height: 90px;
     display: flex;
     position: fixed ;
     align-items: center;
@@ -37,7 +37,7 @@
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.39) ;
     z-index: 1;
 }#logo{
-    height: 90px;
+    height: 80px;
     border-radius: 2px;
 }#mapa-menu{
     background-color: rgb(250, 250, 250);
@@ -57,7 +57,7 @@
 }ul a:hover{
     position:relative;
     top:0;
-    top:-4px;
+    top:0px;
 }.menu{
     display: flex;
     justify-content: space-between;
@@ -126,11 +126,13 @@
    padding: 20px;
 }
 h2{
+    color: var(--prymary-color);
     padding: 15px;
     font-weight: 400;
     font-size: 35px; 
 
 }h3{
+    color: var(--prymary-color);
     font-weight: 400;
     font-size: 30px;
     margin-bottom: 20px;
@@ -228,7 +230,7 @@ p{
     background-image: url(mesa-legumes.jpg);
     height: 90vh;
     width: 100%;
-    background-position: center;
+    background-position: bottom;
     background-attachment: fixed;
     padding-top: 40px;
 }
@@ -236,12 +238,12 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.654);
+    background-color: rgba(57, 102, 57, 0.428);
     height: 100%;
 }
 .overlay  h2{
     color: white;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 70px;
 }
 
@@ -269,4 +271,22 @@ abbr{
     position: absolute;
     top: 0px;
     color: black
+}
+.menu a{
+    font-size: 20px;
+    transition: .3s;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu a:hover{
+    font-size: 25px;
+   
+}
+.menu{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
