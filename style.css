@@ -121,7 +121,6 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   height: 100; 
    width: 38%;
    padding: 20px;
 }
@@ -212,6 +211,7 @@ p{
     height: 100vh;
     justify-content: center;
     justify-items: center;
+    background-color: rgb(225, 234, 227);
 }
 #carrossel{
     display: flex;
@@ -227,24 +227,35 @@ p{
     border-radius: 10px;
 }
 .img{
-    background-image: url(mesa-legumes.jpg);
-    height: 90vh;
+    background-image: url(homem-senior-trabalhando-no-campo-com-vegetais.jpg);
+    height: 100vh;
     width: 100%;
-    background-position: bottom;
-    background-attachment: fixed;
-    padding-top: 40px;
+    background-attachment: scroll;
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 .overlay{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(57, 102, 57, 0.428);
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.867) , rgba(0, 0, 0, 0.108));
     height: 100%;
 }
 .overlay  h2{
     color: white;
     font-weight: 400;
     font-size: 70px;
+}.overlay div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+    color: white;
+}.overlay div p{
+    font-size: 1.3em;
 }
 
 .whatsapp{
