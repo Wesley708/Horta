@@ -1,5 +1,5 @@
 :root{
-    --prymary-color:rgb(81, 129, 89);
+    --prymary-color:#467F56;
 }
 * {
     padding:0;
@@ -35,7 +35,7 @@
     background-color: var(--prymary-color);
     color: white;
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.39) ;
-    z-index: 1;
+    z-index: 2;
 }#logo{
     height: 80px;
     border-radius: 2px;
@@ -191,7 +191,6 @@ p{
     align-items:  center;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
     justify-content: center;
     justify-items: center;
     background-color: rgb(225, 234, 227);
@@ -200,9 +199,12 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60%;
-    max-width: 80%;
+    height: 100vh;
+    max-width: 90%;
     justify-items: center;
+    background-image: url(foto1.jpg);
+    background-position: center;
+    background-size: cover;
 }
 #carrossel img{
     width: 100%;
@@ -288,4 +290,59 @@ abbr{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+
+
+.container-slide{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    height: 70vh;
+    background-color: black;
+    margin-bottom:40px;
+    border-radius: 5px;
+    box-shadow: 0px  20px 30px rgba(0, 0, 0, 0.293);
+}
+.container-items {
+    position: absolute;
+    display: flex;
+    width: 60vw;
+    height: 70vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.item {
+    width: 60vw;
+    height: 70vh;
+    transition: all 0.4s;
+}
+.item:first-child {
+    margin-left: -100%;
+}
+
+.item img{
+    width: 60vw;
+    height: 70vh;
+    border-radius: 5px;
+}
+
+.action-button {
+    font: bold 30px sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    color: rgba(245, 245, 245, 0.526);
+    user-select: none;
+    border-radius: 5px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.395);
+}
+.action-button:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.624);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
 }
