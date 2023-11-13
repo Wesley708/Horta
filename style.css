@@ -259,10 +259,6 @@ p{
 .link-whatsapp{
     position: relative;
 }
-abbr{
-    position: absolute;
-    top: 0px;
-}
 .link-whatsapp p{
     position: absolute;
     top: 0px;
@@ -333,16 +329,91 @@ abbr{
     justify-content: center;
     align-items: center;
     width: 50px;
-    color: rgba(245, 245, 245, 0.526);
+    color: rgba(52, 112, 47, 0.526);
     user-select: none;
     border-radius: 5px;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.395);
 }
 .action-button:hover{
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.624);
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.5s;
 }
+
+
+.form {
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    display: block;
+    width: 100%;
+  }
+  
+  .form label {
+    color: #1f1b1b;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form input,
+  .form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+  }
+  
+  .form textarea {
+    min-height: 13rem;
+    resize: vertical;
+    border:1px solid black;
+  }
+  
+  .form input:hover,
+  .form input:focus,
+  .form textarea:hover,
+  .form textarea:focus {
+    outline: none;
+    border-color: black;
+  }
+  
+  .form button {
+    display: block;
+    padding: 1rem;
+    background: #467F56;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .form button:hover,
+  .form button:focus {
+    outline: none;
+    background: #294a32;
+  }
+  .div-form{
+    width: 90vw;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }div{ 
+    
+  }
