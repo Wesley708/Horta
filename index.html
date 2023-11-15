@@ -17,20 +17,38 @@
     
     <title>Nossa Horta</title>
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css
+    ">
 
 </head>
 <body>
-    <nav>
-        <a href="#home"><img id="logo" src="legumes.png" alt=""></a>
-        <ul>
-            <li class="menu"><a href="#home">Home</a></li>
-            <li class="menu"><a href="#cultivo">Cultivo</a></li>
-            <li class="menu"><a href="#participe">Participe</a></li>
-            <li class="menu"><a href="#galeria">Galeria</a></li>
-            <li class="menu" ><a id="mapa-menu" href="#mapa">Mapa <i class="fa-solid fa-location-dot" style="color: rgba(66, 95, 73, 0.871);"></i></a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo"><a href="#home"><img id="logo" src="legumes.png" alt=""></a></div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#cultivo" class="nav-link ">Cultivo</a></li>
+                    <li class="nav-item"><a href="#participe" class="nav-link">Participe</a></li>
+                    <li class="nav-item"><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li class="nav-item" ><a id="mapa-menu" href="#mapa" class="nav-link">Mapa <i class="fa-solid fa-location-dot" style="color: rgba(66, 95, 73, 0.871);"></i></a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#cultivo" class="nav-link ">Cultivo</a></li>
+                <li class="nav-item"><a href="#participe" class="nav-link">Participe</a></li>
+                <li class="nav-item"><a href="#galeria" class="nav-link">Galeria</a></li>
+                <li class="nav-item" ><a id="mapa-menu" href="#mapa" class="nav-link">Mapa <i class="fa-solid fa-location-dot" style="color: rgba(66, 95, 73, 0.871);"></i></a></li>
+            </ul>
+        </div>
+    </header>
     <a href="https://api.whatsapp.com/send?phone=5511999999999" class="link-whatsapp"><img class="whatsapp" src="whatsapp.png" alt=""></a>
     <div id="home" class="img">
         <div class="overlay"><div>
@@ -179,7 +197,7 @@
     
 </body>
 
-<script src="script.js"></script>
+<script src="assets/js/script.js"></script>
 
 <script src="https://kit.fontawesome.com/65f22fe718.js" crossorigin="anonymous"></script>
 </html>
