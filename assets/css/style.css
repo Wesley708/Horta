@@ -11,37 +11,12 @@
 }html{
     scroll-behavior: smooth;
     scroll-padding-top: 50px;
-}body{
-    padding:0;
-    margin:0;
     vertical-align:baseline;
-    list-style:none;
-    border:0;
-    font-family: 'Red Hat Display', sans-serif;
-}#fora{
-    display: flex;
-    width:100vw;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--prymary-color);
-}nav{
-    height: 90px;
-    display: flex;
-    position: fixed ;
-    align-items: center;
-    justify-content: space-around;
-    background-color: var(--prymary-color);
-    color: white;
-    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.39) ;
-    z-index: 2;
+    
 }#logo{
     height: 80px;
     border-radius: 2px;
 
-}ul{
-    display: flex;
-    align-items: center;
 }a{
     font-weight: 500;
     font-size: 1.34em;
@@ -50,8 +25,6 @@
     padding: 5px 20px;
     border-radius: 20px;
     transition: 0.5s;
-}.container img{
-    height: 400px;
 }.container{
     /* height: 100vh; */
     width: 100%;
@@ -62,9 +35,7 @@
     flex-wrap: wrap;
 
 }
-#home{
-    background-color:rgb(250, 250, 250);
-}#sobre{
+#sobre{
     background-color: rgb(13, 56, 94, 0.212);
 }
 #rodape{
@@ -101,7 +72,7 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   width: 38%;
+   width: 80%;
    padding: 30px;
 }
 h2{
@@ -189,37 +160,7 @@ p{
     height: 100%;
     border-radius: 10px;
 }
-.img{
-    background-image: url(../img/homem-senior-trabalhando-no-campo-com-vegetais.jpg);
-    height: 50vw;
-    width: 100%;
-    background-attachment: scroll;
-    padding-top: 0px;
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-.overlay{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.867) , rgba(0, 0, 0, 0.108));
-    height: 100%;
-}
-.overlay  h2{
-    color: white;
-    font-weight: 400;
-    font-size: 70px;
-}.overlay div{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 60px;
-    color: white;
-}.overlay div p{
-    font-size: 1.3em;
-}
+
 
 .whatsapp{
     width: 50px;

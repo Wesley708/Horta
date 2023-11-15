@@ -1,0 +1,57 @@
+body{
+    max-width: 100%;
+}
+
+.svg img{
+    max-width: 100%;
+}
+
+/* Home */
+
+#home{
+    background-color:rgb(250, 250, 250);
+}
+.img{
+    background-image: url(../img/homem-senior-trabalhando-no-campo-com-vegetais.jpg);
+    height: 50vw;
+    width: 100%;
+    background-attachment: scroll;
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.867) , rgba(0, 0, 0, 0.108));
+    height: 100%;
+}
+.overlay  h2{
+    color: white;
+    font-weight: 400;
+    font-size: 70px;
+}.overlay div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+    color: white;
+}.overlay div p{
+    font-size: 1.3em;
+}
+@media screen and (max-width: 730px) {
+    .overlay div{
+        max-width: 38%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 60px;
+        color: white;
+    }
+}
+
+/* Cultivo */
