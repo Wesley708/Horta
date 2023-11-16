@@ -1,0 +1,34 @@
+#rodape{
+    display: flex;
+    width: 100%;
+    background-color:  var(--prymary-color);
+    justify-content: space-around;
+    margin-top: -5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.rodape2{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+    color:rgb(237, 237, 237);
+    font-weight: 500;
+    width: 20%;
+    height: 100%;
+}
+#liRodape{
+    display: block;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 730px) {
+    #rodape{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rodape2{
+        width: auto;
+        margin-bottom: 30px;
+    }
+}

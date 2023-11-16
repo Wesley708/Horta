@@ -1,10 +1,10 @@
 'use strict';
 
 const images = [
-    { 'id': '1', 'url':'foto1.jpg' },
-    { 'id': '2', 'url':'foto2.jpg' },
-    { 'id': '3', 'url':'foto3.jpg' },
-    { 'id': '4', 'url':'foto4.jpg' },
+    { 'id': '1', 'url':'assets/img/foto1.jpg' },
+    { 'id': '2', 'url':'assets/img/foto2.jpg' },
+    { 'id': '3', 'url':'assets/img/foto3.jpg' },
+    { 'id': '4', 'url':'assets/img/foto4.jpg' },
 ]
 
 const containerItems = document.querySelector('#container-items');
