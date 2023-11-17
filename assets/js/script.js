@@ -5,6 +5,10 @@ const images = [
     { 'id': '2', 'url':'assets/img/foto2.jpg' },
     { 'id': '3', 'url':'assets/img/foto3.jpg' },
     { 'id': '4', 'url':'assets/img/foto4.jpg' },
+    { 'id': '5', 'url':'assets/img/foto5.jpg' },
+    { 'id': '6', 'url':'assets/img/foto6.jpg' },
+    { 'id': '7', 'url':'assets/img/foto7.jpg' },
+    { 'id': '8', 'url':'assets/img/foto8.jpg' },
 ]
 
 const containerItems = document.querySelector('#container-items');
