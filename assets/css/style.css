@@ -56,12 +56,6 @@ h2{
 }
 .link-redes{
     font-size: medium;
-}.ico-language{
-    height: 80px;
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }.svg2:hover{
     height: 3.5em;
 }
@@ -114,4 +108,7 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.logo{
+    height: 70px;
 }

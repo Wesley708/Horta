@@ -27,7 +27,12 @@
 <body>
     <header class="header">
         <nav class="nav-bar">
-            <div class="logo"><a href="#home"><img id="logo" src="assets/img/legumes.png" alt=""></a></div>
+            <div class="rodape2">
+                <a href="#home">
+                    <img class="logo" src="assets/img/legumes.png" alt="">
+                    <h3>Nossa <br> Horta</h3>
+                </a>
+            </div>
             <div class="nav-list">
                 <ul>
                     <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
@@ -148,17 +153,14 @@
           method="POST"
           class="form"
         >
-          <label for="name">Nome</label>
-          <input type="text" name="name" id="name" required />
-          <label for="email">E-mail</label>
-          <input type="email" name="email" id="email" required />
-          <label for="message">Mensagem</label>
-          <textarea name="message" id="message" required></textarea>
+          <input type="text" name="name" id="name" required placeholder="Nome"/>
+          <input type="email" name="email" id="email" required placeholder="Email"/>
+          <textarea name="message" id="message" required placeholder="Sua menssagem..."></textarea>
           <input type="hidden" name="_captcha" value="false" />
           <input
             type="hidden"
             name="_next"
-            value="https://yourdomain.co/thanks.html"
+            value=""
           />
           <button type="submit">Enviar</button>
         </form>
@@ -171,8 +173,8 @@
     <div id="rodape">
         <div class="rodape2">
             <a href="#home">
-                <h3>Logo</h3>
-                <img src="assets/img/legumes.png" alt="" id="logo">
+                <img src="assets/img/legumes.png" alt="" class="logo">
+                <h3>Nossa <br> Horta</h3>
             </a>
         </div>
         <div class="rodape2">
@@ -185,13 +187,21 @@
 
             <h3>Redes Sociais</h3>
 
-            <i class="fa-solid fa-square-phone"><a href="#" class="link-redes">(11) 9999 9999</a></i>
+            <div class="redes">
+                <i class="fa-solid fa-square-phone"></i>
+                <a href="#" class="link-redes">(11) 9999 9999</a>
+            </div>
 
-            <i class="fa-solid fa-square-envelope"><a href="#" class="link-redes">E-mail</a></i>
+            <div class="redes">
+                <i class="fa-solid fa-square-envelope"></i>
+                <a href="#" class="link-redes">E-mail</a>
+            </div>
             
-            <i class="fa-brands redes fa-square-whatsapp">
-            <a href="#" class="link-redes" >(11)9 9999 9999</a>
-            </i>
+            <div class="redes">
+                <i class="fa-brands redes fa-square-whatsapp">
+                </i>
+                <a href="#" class="link-redes" >(11)9 9999 9999</a>
+            </div>
         </div>
     </div>
 

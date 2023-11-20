@@ -19,15 +19,25 @@
     height: 80px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
 }
-
-.logo {
+.logo{
     display: flex;
+    justify-content: center;
     align-items: center;
 }
-.logo h2{
+.logo a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.logo a h3{
+    height: fit-content;
     color: white;
-    font-size: 25px;
-    padding: 0;
+    font-size: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -80,6 +90,9 @@
     color:rgba(18, 48, 20, 0.937) ;
     
 }
+.rodape2 a{
+    flex-direction: column;
+}
 @media screen and (max-width: 730px) {
     .nav-bar {
         padding: .2rem .2rem;
@@ -94,6 +107,7 @@
     .mobile-menu-icon {
         display: flex;
         align-items: center;
+        margin-right: 7%;
     }
     .mobile-menu-icon button {
         background-color: transparent;
@@ -123,10 +137,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    #logo{
-        height: 60px;
-    }
-    
+    }.nav-bar{
+        justify-content: space-between;
+    }   
     
 }
