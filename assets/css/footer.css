@@ -21,14 +21,28 @@
     display: block;
     font-size: 15px;
 }
+.rodape2 h3{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 0;
+}
 
 @media screen and (max-width: 730px) {
     #rodape{
         flex-direction: column;
-        align-items: center;
+        align-items: left;
     }
     .rodape2{
         width: auto;
         margin-bottom: 30px;
+        margin-left: 14%;
+
+    }
+    .rodape2 h3{
+        color: white;
+        font-size: 1.4em;
+        font-weight: 700;
+        margin-bottom: 0;
     }
 }
