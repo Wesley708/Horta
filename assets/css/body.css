@@ -19,7 +19,7 @@ body{
     padding-top: 0px;
     background-repeat: no-repeat;
     background-size: cover; 
-    
+    background-position: 0px 80px;
 }
 .overlay{
     display: flex;
@@ -231,7 +231,7 @@ body{
         padding: 30px;
      }
     .img{
-        background-position: right;
+        background-position:  -380px 80px;
     }
     .overlay div{
         width: 90%;
@@ -297,6 +297,12 @@ body{
         width: 90vw;
         height: 60vh;
         transition: all 0.4s;
+    }
+    .round-six{
+        max-width: 100%;
+        max-height: 380px;
+        border-radius: 10px;
+        margin-top: 40px;
     }
 }
 
